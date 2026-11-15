@@ -1,0 +1,10 @@
+{
+  "name": "flipper-counter",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node node_modules/@flipperdevices/fz-sdk/sdk.js upload"
+  },
+  "devDependencies": {
+    "@flipperdevices/fz-sdk": "^1"
+  }
+}

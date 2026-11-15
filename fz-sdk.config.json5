@@ -1,0 +1,6 @@
+{
+  "upload": {
+    "input": "counter.js",
+    "output": "/ext/apps/Scripts/counter.js"
+  }
+}
