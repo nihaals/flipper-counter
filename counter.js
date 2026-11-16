@@ -117,7 +117,7 @@ function menuItems(s) {
 
 let views = {
     counter: widgetView.makeWith({}, counterElements(state)),
-    menu: submenuView.makeWith({ header: "Counter" }, menuItems(state)),
+    menu: submenuView.makeWith({}, menuItems(state)),
     targetInput: numberInputView.makeWith({
         header: "Set target",
         minValue: 1,
