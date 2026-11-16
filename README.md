@@ -17,10 +17,15 @@ The main screen shows the current count in large digits, with the target underne
 | Right   | +1 (hold to auto-repeat)                  |
 | Left    | -1 (hold to auto-repeat)                  |
 | Center  | Reset to 0                                |
-| Back    | Menu (Set target / Exit)                  |
+| Back    | Menu (mode / set size / set target / Exit) |
 | OK      | Confirm in menus                          |
 
 Every press at or past the target (30, 31, 32, ...) vibrates with a green LED blink, so you know you've hit your number without looking. The counter line also switches from `/ 30` to `Done!`.
+
+Two counting modes, toggled from the menu (in-memory only, like all settings):
+
+- **simple count** — one buzz on every press at or past the target
+- **rep sets** — a single buzz on every Nth press (checkpoint), and a distinct double buzz at the target and past it. "Set size" (N) only appears in this mode. Built for things like "rotate ankle 5×, then 5× the other way, until 30": count presses by ear, no screen-watching.
 
 The target defaults to 30 and can be changed via the menu's number keyboard (1-999). It is not persisted across app restarts.
 
