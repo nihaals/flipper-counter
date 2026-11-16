@@ -30,11 +30,11 @@ The target defaults to 30 and can be changed via the menu's number keyboard (1-9
 bun start # Upload to the Flipper (over USB) and run it
 ```
 
-Uploads `/ext/apps/Scripts/flipper-counter.js`.
+Uploads `/ext/apps/Scripts/counter.js`.
 
 ## Code layout
 
-- `flipper-counter.js` — the whole app, plain JavaScript. Written to match the firmware's bundled `gui.js` example style exactly.
+- `counter.js` — the whole app, plain JavaScript. Written to match the firmware's bundled `gui.js` example style exactly.
 
 ## mjs engine rules
 
